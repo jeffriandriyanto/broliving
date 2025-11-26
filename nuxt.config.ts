@@ -24,22 +24,22 @@ export default defineNuxtConfig({
   app: {
     head: {
       title:
-        "Broliving | Furnitur Premium Nyaman & Tahan Lama untuk Rumah Modern",
+        "Broliving | Hospitality Furniture Premium untuk Hotel, Resto, Cafe & Resort",
       meta: [
         {
           name: "description",
           content:
-            "Temukan furnitur premium yang nyaman, fungsional, dan tahan lama. Broliving menggabungkan desain modern & craftsmanship presisi untuk pengalaman hidup di rumah yang lebih baik.",
+            "Broliving menghadirkan furniture premium untuk Residential, Hotel, Resto, Cafe, dan Resort. Kombinasi desain modern, kenyamanan, dan kualitas tinggi untuk pengalaman hospitality terbaik.",
         },
         {
           name: "og:title",
           content:
-            "Broliving | Furnitur Premium Nyaman & Tahan Lama untuk Rumah Modern",
+            "Broliving | Hospitality Furniture Premium untuk Hotel, Resto, Cafe & Resort",
         },
         {
           name: "og:description",
           content:
-            "Furnitur premium dengan desain modern, craftsmanship presisi, dan kenyamanan jangka panjang untuk pengalaman hidup di rumah yang lebih baik.",
+            "Furniture premium untuk Residential, Hotel, Resto, Cafe, dan Resort. Desain modern & craftsmanship presisi untuk pengalaman hospitality yang optimal.",
         },
         {
           name: "og:url",
@@ -62,10 +62,10 @@ export default defineNuxtConfig({
             "@type": "Brand",
             name: "Broliving",
             url: "https://broliving.id",
-            logo: "https://broliving.id/logo.png",
+            logo: "https://broliving.id/logo/logo-black.png",
             slogan: "Crafted for Comfort. Designed for Life.",
             description:
-              "Broliving menghadirkan furnitur premium dengan desain modern, craftsmanship presisi, dan kenyamanan jangka panjang untuk pengalaman hidup di rumah yang lebih baik.",
+              "Broliving menyediakan furniture premium untuk Residential, Hotel, Resto, Cafe, dan Resort. Menggabungkan desain modern, craftsmanship presisi, dan kenyamanan jangka panjang untuk pengalaman hospitality terbaik.",
             sameAs: [
               "https://www.instagram.com/broliving.id",
               "https://wa.me/6285XXXXXXXX",

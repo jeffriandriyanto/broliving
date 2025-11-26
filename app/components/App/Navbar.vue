@@ -5,7 +5,6 @@
     <nav
       class="max-w-[1440px] mx-auto px-6 flex items-center justify-between h-20"
     >
-      <!-- Logo + Tagline -->
       <div
         class="flex flex-col leading-tight cursor-pointer"
         @click="scrollTo('home')"
@@ -13,7 +12,6 @@
         <nuxt-img src="/logo/logo-black.png" width="150" />
       </div>
 
-      <!-- Desktop Nav -->
       <ul
         class="hidden md:flex items-center space-x-10 text-[15px] font-medium"
       >
