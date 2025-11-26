@@ -15,8 +15,9 @@ export default defineNuxtConfig({
     "nuxt-aos",
     "dayjs-nuxt",
     "vuetify-nuxt-module",
+    "@nuxtjs/leaflet",
   ],
-  css: ["@/styles/main.css"],
+  css: ["@/styles/main.css", "leaflet/dist/leaflet.css"],
 
   // ================================
   // 🔥 SEO & STRUCTURED DATA

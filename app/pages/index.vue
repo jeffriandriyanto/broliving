@@ -1,3 +1,6 @@
 <template>
-  <div>Broliving</div>
+  <div>
+    <SectionHero />
+    <SectionContact />
+  </div>
 </template>
