@@ -13,20 +13,40 @@
           class="mb-4"
         />
         <p class="text-sm font-semibold">
-          BROLIVING — Hospitality Furniture for Residential, Hotel, Resto, Cafe
-          & Resort
+          BROLIVING — Hospitality Furniture for Residential, Hotel, Restaurant,
+          Café & Resort
         </p>
       </div>
 
-      <!-- Quick Links (matching navbar style) -->
+      <!-- Quick Links -->
       <div>
         <h3 class="text-md font-semibold mb-3">Quick Links</h3>
         <ul class="space-y-2">
-          <li><button class="nav-link" @click="$scrollTo('#products')">Products</button></li>
-          <li><button class="nav-link" @click="$scrollTo('#custom')">Custom Furniture</button></li>
-          <li><button class="nav-link" @click="$scrollTo('#projects')">Project Gallery</button></li>
-          <li><button class="nav-link" @click="$scrollTo('#about')">About Us</button></li>
-          <li><button class="nav-link" @click="$scrollTo('#contact')">Contact</button></li>
+          <li>
+            <button class="nav-link" @click="$scrollTo('#products')">
+              Products
+            </button>
+          </li>
+          <li>
+            <button class="nav-link" @click="$scrollTo('#custom')">
+              Custom Furniture
+            </button>
+          </li>
+          <li>
+            <button class="nav-link" @click="$scrollTo('#projects')">
+              Project Gallery
+            </button>
+          </li>
+          <li>
+            <button class="nav-link" @click="$scrollTo('#about')">
+              About Us
+            </button>
+          </li>
+          <li>
+            <button class="nav-link" @click="$scrollTo('#contact')">
+              Contact
+            </button>
+          </li>
         </ul>
       </div>
 
@@ -34,16 +54,14 @@
       <div>
         <h3 class="text-md font-semibold mb-3">Contact</h3>
 
-        <!-- Address -->
         <div class="flex items-start gap-2 text-sm">
           <v-icon size="18" class="pt-[2px]">mdi-map-marker</v-icon>
           <p>
-            Jl. Raya Juwana – Pati, Area Sawah, Mintomulyo, Kec. Pati,
-            Kabupaten Pati, Jawa Tengah 59185
+            Jl. Raya Juwana – Pati, Area Sawah, Mintomulyo, Pati Regency,
+            Central Java 59185, Indonesia
           </p>
         </div>
 
-        <!-- WhatsApp -->
         <div class="flex items-center gap-2 mt-2 text-sm">
           <v-icon size="18">mdi-whatsapp</v-icon>
           <a
@@ -51,11 +69,10 @@
             target="_blank"
             class="font-medium hover:text-gray-600"
           >
-            0812-xxxx-xxxx
+            +62 812-xxxx-xxxx
           </a>
         </div>
 
-        <!-- Email -->
         <div class="flex items-center gap-2 mt-2 text-sm">
           <v-icon size="18">mdi-email</v-icon>
           <a
@@ -66,9 +83,8 @@
           </a>
         </div>
 
-        <h3 class="text-md font-semibold mt-4">Social</h3>
+        <h3 class="text-md font-semibold mt-4">Follow Us</h3>
 
-        <!-- Instagram -->
         <div class="flex items-center gap-2 mt-2 text-sm">
           <v-icon size="18">mdi-instagram</v-icon>
           <a
@@ -83,17 +99,15 @@
       </div>
     </div>
 
-    <!-- SEO Footer Copy / Company Description -->
+    <!-- SEO / Company Description -->
     <div class="container mx-auto px-6 mt-8 border-t border-gray-200 pt-6">
       <p class="max-w-6xl mx-auto text-sm text-center text-gray-600">
-        BROLIVING adalah produsen furnitur premium untuk kebutuhan rumah dan
-        bisnis anda. Kami melayani pemesanan furnitur untuk Residential, Hotel,
-        Resto, Cafe, dan Resort dengan pilihan katalog dan custom. Pengiriman ke
-        seluruh Indonesia.
+        BROLIVING is a premium furniture manufacturer for homes and businesses.
+        We cater to Residential, Hotels, Restaurants, Cafés, and Resorts —
+        offering a wide catalog and custom furniture solutions. Nationwide
+        shipping available across Indonesia.
       </p>
     </div>
-
-    
 
     <!-- Copyright -->
     <div class="container mx-auto px-6 mt-6 text-center">

@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     "dayjs-nuxt",
     "vuetify-nuxt-module",
     "@nuxtjs/leaflet",
+    "nuxt-swiper",
   ],
   css: ["@/styles/main.css", "leaflet/dist/leaflet.css"],
 
@@ -25,22 +26,22 @@ export default defineNuxtConfig({
   app: {
     head: {
       title:
-        "Broliving | Hospitality Furniture Premium untuk Hotel, Resto, Cafe & Resort",
+        "BROLIVING | Premium Hospitality Furniture for Hotels, Restaurants, Cafés & Resorts",
       meta: [
         {
           name: "description",
           content:
-            "Broliving menghadirkan furniture premium untuk Residential, Hotel, Resto, Cafe, dan Resort. Kombinasi desain modern, kenyamanan, dan kualitas tinggi untuk pengalaman hospitality terbaik.",
+            "BROLIVING delivers premium furniture for homes, hotels, restaurants, cafés and resorts. Combining modern design, comfort, and high-quality craftsmanship for the best hospitality experience.",
         },
         {
           name: "og:title",
           content:
-            "Broliving | Hospitality Furniture Premium untuk Hotel, Resto, Cafe & Resort",
+            "BROLIVING | Premium Hospitality Furniture for Hotels, Restaurants, Cafés & Resorts",
         },
         {
           name: "og:description",
           content:
-            "Furniture premium untuk Residential, Hotel, Resto, Cafe, dan Resort. Desain modern & craftsmanship presisi untuk pengalaman hospitality yang optimal.",
+            "Premium furniture for residential and commercial spaces — hotels, restaurants, cafés, and resorts. Modern design & precise craftsmanship for optimal hospitality experience.",
         },
         {
           name: "og:url",
@@ -61,18 +62,18 @@ export default defineNuxtConfig({
           innerHTML: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Brand",
-            name: "Broliving",
+            name: "BROLIVING",
             url: "https://broliving.id",
             logo: "https://broliving.id/logo/logo-black.png",
             slogan: "Crafted for Comfort. Designed for Life.",
             description:
-              "Broliving menyediakan furniture premium untuk Residential, Hotel, Resto, Cafe, dan Resort. Menggabungkan desain modern, craftsmanship presisi, dan kenyamanan jangka panjang untuk pengalaman hospitality terbaik.",
+              "BROLIVING provides premium furniture for homes, hotels, restaurants, cafés, and resorts. Blending modern design, precise craftsmanship, and long-lasting comfort for the best hospitality experience.",
             sameAs: [
               "https://www.instagram.com/broliving.id",
               "https://wa.me/6285XXXXXXXX",
             ],
             brandValues: [
-              "Material Premium",
+              "Premium Materials",
               "Quality Craftsmanship",
               "Purposeful Design",
             ],
