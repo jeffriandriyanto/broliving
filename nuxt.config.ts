@@ -9,16 +9,15 @@ export default defineNuxtConfig({
     "@nuxt/scripts",
     "@nuxt/hints",
     "@nuxtjs/sitemap",
-    "@nuxtjs/robots",
     "@nuxtjs/seo",
     "@nuxtjs/tailwindcss",
     "nuxt-aos",
-    "dayjs-nuxt",
+    // "dayjs-nuxt",
     "vuetify-nuxt-module",
-    "@nuxtjs/leaflet",
+    // "@nuxtjs/leaflet",
     "nuxt-swiper",
   ],
-  css: ["@/styles/main.css", "leaflet/dist/leaflet.css"],
+  css: ["@/styles/main.css"],
 
   // ================================
   // 🔥 SEO & STRUCTURED DATA
