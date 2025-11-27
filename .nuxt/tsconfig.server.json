@@ -1,0 +1,262 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "./types/nitro-imports"
+      ],
+      "~/*": [
+        "../app/*"
+      ],
+      "@/*": [
+        "../app/*"
+      ],
+      "~~/*": [
+        "../*"
+      ],
+      "@@/*": [
+        "../*"
+      ],
+      "nitropack/types": [
+        "../node_modules/nitropack/types"
+      ],
+      "nitropack/runtime": [
+        "../node_modules/nitropack/runtime"
+      ],
+      "nitropack": [
+        "../node_modules/nitropack"
+      ],
+      "defu": [
+        "../node_modules/defu"
+      ],
+      "h3": [
+        "../node_modules/h3"
+      ],
+      "consola": [
+        "../node_modules/consola"
+      ],
+      "ofetch": [
+        "../node_modules/ofetch"
+      ],
+      "@nuxt/devtools": [
+        "../node_modules/@nuxt/devtools"
+      ],
+      "@vue/runtime-core": [
+        "../node_modules/@vue/runtime-core"
+      ],
+      "@vue/compiler-sfc": [
+        "../node_modules/@vue/compiler-sfc"
+      ],
+      "unplugin-vue-router/client": [
+        "../node_modules/unplugin-vue-router/client"
+      ],
+      "@nuxt/schema": [
+        "../node_modules/@nuxt/schema"
+      ],
+      "nuxt": [
+        "../node_modules/nuxt"
+      ],
+      "vite/client": [
+        "../node_modules/vite/client"
+      ],
+      "nuxt-site-config": [
+        "../node_modules/nuxt-site-config"
+      ],
+      "@nuxtjs/robots": [
+        "../node_modules/@nuxtjs/robots"
+      ],
+      "nuxt-link-checker": [
+        "../node_modules/nuxt-link-checker"
+      ],
+      "nuxt-og-image": [
+        "../node_modules/nuxt-og-image"
+      ],
+      "nuxt-schema-org": [
+        "../node_modules/nuxt-schema-org"
+      ],
+      "nuxt-seo-utils": [
+        "../node_modules/nuxt-seo-utils"
+      ],
+      "#shared": [
+        "../shared"
+      ],
+      "#shared/*": [
+        "../shared/*"
+      ],
+      "#build": [
+        "./"
+      ],
+      "#build/*": [
+        "./*"
+      ],
+      "#internal/nuxt/paths": [
+        "../node_modules/@nuxt/nitro-server/dist/runtime/utils/paths"
+      ],
+      "#nuxt-scripts-validator": [
+        "../node_modules/@nuxt/scripts/dist/runtime/validation/valibot"
+      ],
+      "#nuxt-scripts": [
+        "../node_modules/@nuxt/scripts/dist/runtime"
+      ],
+      "#nuxt-scripts/*": [
+        "../node_modules/@nuxt/scripts/dist/runtime/*"
+      ],
+      "#sitemap": [
+        "../node_modules/@nuxtjs/sitemap/dist/runtime"
+      ],
+      "#sitemap/*": [
+        "../node_modules/@nuxtjs/sitemap/dist/runtime/*"
+      ],
+      "#site-config": [
+        "../node_modules/nuxt-site-config/dist/runtime"
+      ],
+      "#site-config/*": [
+        "../node_modules/nuxt-site-config/dist/runtime/*"
+      ],
+      "#aos": [
+        "../node_modules/nuxt-aos/dist/runtime"
+      ],
+      "#aos/*": [
+        "../node_modules/nuxt-aos/dist/runtime/*"
+      ],
+      "#unhead/composables": [
+        "../node_modules/nuxt/dist/head/runtime/composables"
+      ],
+      "#robots": [
+        "../node_modules/@nuxtjs/robots/dist/runtime"
+      ],
+      "#robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/*"
+      ],
+      "#og-image": [
+        "../node_modules/nuxt-og-image/dist/runtime"
+      ],
+      "#og-image/*": [
+        "../node_modules/nuxt-og-image/dist/runtime/*"
+      ],
+      "#og-image-cache": [
+        "../node_modules/nuxt-og-image/dist/runtime/server/og-image/cache/lru"
+      ],
+      "#nuxt-og-image-utils": [
+        "../node_modules/nuxt-og-image/dist/runtime/shared"
+      ],
+      "#schema-org": [
+        "../node_modules/nuxt-schema-org/dist/runtime"
+      ],
+      "#schema-org/*": [
+        "../node_modules/nuxt-schema-org/dist/runtime/*"
+      ],
+      "#seo-utils": [
+        "../node_modules/nuxt-seo-utils/dist/runtime"
+      ],
+      "#seo-utils/*": [
+        "../node_modules/nuxt-seo-utils/dist/runtime/*"
+      ],
+      "#nuxt-icon-server-bundle": [
+        "./nuxt-icon-server-bundle"
+      ],
+      "#internal/nuxt-site-config": [
+        "../node_modules/nuxt-site-config/dist/runtime/server/composable-barrel-deprecated"
+      ],
+      "#internal/nuxt-simple-robots": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables"
+      ],
+      "#internal/nuxt-simple-robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables/*"
+      ],
+      "#internal/nuxt-robots": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables"
+      ],
+      "#internal/nuxt-robots/*": [
+        "../node_modules/@nuxtjs/robots/dist/runtime/server/composables/*"
+      ],
+      "#og-image/renderers/satori": [
+        "../node_modules/nuxt-og-image/dist/runtime/server/og-image/satori/renderer"
+      ],
+      "#og-image/renderers/chromium": [
+        "../node_modules/nuxt-og-image/dist/runtime/mock/empty"
+      ],
+      "#og-image/bindings/css-inline": [
+        "../node_modules/nuxt-og-image/dist/runtime/mock/empty"
+      ],
+      "#og-image/bindings/sharp": [
+        "../node_modules/nuxt-og-image/dist/runtime/mock/empty"
+      ],
+      "#og-image/bindings/resvg": [
+        "../node_modules/nuxt-og-image/dist/runtime/server/og-image/bindings/resvg/node"
+      ],
+      "#og-image/bindings/satori": [
+        "../node_modules/nuxt-og-image/dist/runtime/server/og-image/bindings/satori/node"
+      ],
+      "#og-image/bindings/chromium": [
+        "../node_modules/nuxt-og-image/dist/runtime/server/og-image/bindings/chromium/null"
+      ],
+      "electron": [
+        "../node_modules/nuxt-og-image/dist/runtime/mock/proxy-cjs"
+      ],
+      "bufferutil": [
+        "../node_modules/nuxt-og-image/dist/runtime/mock/proxy-cjs"
+      ],
+      "utf-8-validate": [
+        "../node_modules/nuxt-og-image/dist/runtime/mock/proxy-cjs"
+      ],
+      "queue": [
+        "../node_modules/nuxt-og-image/dist/runtime/mock/proxy-cjs"
+      ],
+      "chromium-bidi": [
+        "../node_modules/nuxt-og-image/dist/runtime/mock/proxy-cjs"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "webworker",
+      "dom.iterable"
+    ]
+  },
+  "include": [
+    "./types/nitro-nuxt.d.ts",
+    "../node_modules/runtime/server",
+    "../node_modules/dist/runtime/server",
+    "../node_modules/nuxt-site-config/dist/runtime/server",
+    "../node_modules/nuxt-site-config/dist/dist/runtime/server",
+    "../shared/**/*.d.ts",
+    "./types/nitro.d.ts",
+    "../server/**/*"
+  ],
+  "exclude": [
+    "../node_modules",
+    "../node_modules/nuxt/node_modules",
+    "../node_modules/@nuxt/eslint/node_modules",
+    "../node_modules/@nuxt/icon/node_modules",
+    "../node_modules/@nuxt/image/node_modules",
+    "../node_modules/@nuxt/scripts/node_modules",
+    "../node_modules/@nuxt/hints/node_modules",
+    "../node_modules/nuxt-site-config/node_modules",
+    "../node_modules/@nuxtjs/sitemap/node_modules",
+    "../node_modules/@nuxtjs/seo/node_modules",
+    "../node_modules/@nuxtjs/tailwindcss/node_modules",
+    "../node_modules/nuxt-aos/node_modules",
+    "../node_modules/vuetify-nuxt-module/node_modules",
+    "../node_modules/nuxt-swiper/node_modules",
+    "../node_modules/@nuxt/devtools/node_modules",
+    "../node_modules/@nuxt/telemetry/node_modules",
+    "../node_modules/@nuxtjs/robots/node_modules",
+    "../node_modules/nuxt-link-checker/node_modules",
+    "../node_modules/nuxt-og-image/node_modules",
+    "../node_modules/nuxt-schema-org/node_modules",
+    "../node_modules/nuxt-seo-utils/node_modules",
+    "../dist"
+  ]
+}
