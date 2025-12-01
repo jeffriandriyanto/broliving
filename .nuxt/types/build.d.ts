@@ -16,6 +16,8 @@ declare module "#build/image-options.mjs";
 declare module "#build/nuxt-scripts-trigger-resolver.mjs";
 declare module "#build/vuetify-nuxt-plugin.client.mjs";
 declare module "#build/vuetify-nuxt-plugin.server.mjs";
+declare module "#build/devtools/settings.mjs";
+declare module "#build/runtime.vue-devtools-client.5DllFr2GOqWw0iyFyCXU7kU7hBV2z3AvoY1n0yUHLFY.js";
 declare module "#build/routes.mjs";
 declare module "#build/pages.mjs";
 declare module "#build/router.options.mjs";

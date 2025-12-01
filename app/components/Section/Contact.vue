@@ -23,7 +23,7 @@
 
 <script setup>
 function goWhatsApp() {
-  window.open("https://wa.me/62812xxxxxxx", "_blank")
+  window.open("https://wa.me/6281337286371", "_blank")
 }
 </script>
 

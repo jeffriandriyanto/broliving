@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-gray-50 text-gray-800 pt-10 pb-6 border-t border-gray-200">
     <div
-      class="container mx-auto px-6 flex flex-col md:flex-row md:justify-between md:items-start gap-8"
+      class="container mx-auto px-6 flex md:flex-wrap flex-col md:flex-row md:justify-between md:items-start gap-8"
     >
       <!-- Logo & Brand Info -->
       <div class="flex flex-col items-start">
@@ -11,6 +11,10 @@
           width="160"
           height="auto"
           class="mb-4"
+          preload
+          loading="eager"
+          quality="70"
+          format="webp"
         />
         <p class="text-sm font-semibold">
           BROLIVING — Hospitality Furniture for Residential, Hotel, Restaurant,
@@ -19,36 +23,24 @@
       </div>
 
       <!-- Quick Links -->
-      <div>
+      <!-- <div>
         <h3 class="text-md font-semibold mb-3">Quick Links</h3>
         <ul class="space-y-2">
           <li>
-            <button class="nav-link" @click="$scrollTo('#products')">
-              Products
-            </button>
+            <button class="nav-link" @click="scrollTo('#home')">Home</button>
           </li>
           <li>
-            <button class="nav-link" @click="$scrollTo('#custom')">
-              Custom Furniture
-            </button>
-          </li>
-          <li>
-            <button class="nav-link" @click="$scrollTo('#projects')">
-              Project Gallery
-            </button>
-          </li>
-          <li>
-            <button class="nav-link" @click="$scrollTo('#about')">
+            <button class="nav-link" @click="scrollTo('#about')">
               About Us
             </button>
           </li>
           <li>
-            <button class="nav-link" @click="$scrollTo('#contact')">
+            <button class="nav-link" @click="scrollTo('#contact')">
               Contact
             </button>
           </li>
         </ul>
-      </div>
+      </div> -->
 
       <!-- Contact & Address -->
       <div>
@@ -65,7 +57,7 @@
         <div class="flex items-center gap-2 mt-2 text-sm">
           <v-icon size="18">mdi-whatsapp</v-icon>
           <a
-            href="https://wa.me/62812xxxxxxx"
+            href="https://wa.me/6281337286371"
             target="_blank"
             class="font-medium hover:text-gray-600"
           >
@@ -117,6 +109,10 @@
     </div>
   </footer>
 </template>
+
+<script setup>
+
+</script>
 
 <style scoped>
 .nav-link {

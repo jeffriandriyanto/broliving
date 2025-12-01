@@ -69,6 +69,7 @@ export { useScriptGoogleTagManager } from '../node_modules/@nuxt/scripts/dist/ru
 export { useScriptGoogleAnalytics } from '../node_modules/@nuxt/scripts/dist/runtime/registry/google-analytics';
 export { useScriptUmamiAnalytics } from '../node_modules/@nuxt/scripts/dist/runtime/registry/umami-analytics';
 export { useDate, useLocale, useDefaults, useDisplay, useLayout, useRtl, useTheme, useGoTo } from 'vuetify';
+export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { useRobotsRule } from '../node_modules/@nuxtjs/robots/dist/runtime/app/composables/useRobotsRule';
 export { useBotDetection } from '../node_modules/@nuxtjs/robots/dist/runtime/app/composables/useBotDetection';
 export { defineOgImage } from '../node_modules/nuxt-og-image/dist/runtime/app/composables/defineOgImage';

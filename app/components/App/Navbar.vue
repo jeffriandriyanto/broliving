@@ -12,6 +12,10 @@
           src="/logo/logo-black.png"
           src-lazy="/logo/logo-black.png"
           width="150"
+          preload
+          loading="eager"
+          quality="70"
+          format="webp"
         />
       </div>
 
@@ -30,7 +34,7 @@
               class="relative pb-1 after:absolute after:left-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 transition-all duration-200"
               @click="scrollTo('about')"
             >
-              Why Us
+              About Us
             </button>
           </li>
           <li>
@@ -47,7 +51,7 @@
         <v-btn
           id="cta_header_whatsapp"
           alt="btn_header_whatsapp"
-          href="https://wa.me/628xxxxxx"
+          href="https://wa.me/6281337286371"
           target="_blank"
           icon="mdi-whatsapp"
           color="green"
@@ -77,7 +81,8 @@
             <button @click="navMobile('projects')">Project Gallery</button>
           </li> -->
           <li><button @click="navMobile('about')">Why Us</button></li>
-          <li><button @click="navMobile('contact')">Contact</button></li>        </ul>
+          <li><button @click="navMobile('contact')">Contact</button></li>
+        </ul>
       </div>
     </transition>
   </header>

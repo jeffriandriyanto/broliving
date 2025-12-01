@@ -142,6 +142,12 @@
       "#robots/*": [
         "../node_modules/@nuxtjs/robots/dist/runtime/*"
       ],
+      "#link-checker": [
+        "../node_modules/nuxt-link-checker/dist/runtime"
+      ],
+      "#link-checker/*": [
+        "../node_modules/nuxt-link-checker/dist/runtime/*"
+      ],
       "#og-image": [
         "../node_modules/nuxt-og-image/dist/runtime"
       ],
@@ -167,7 +173,7 @@
         "../node_modules/nuxt-seo-utils/dist/runtime/*"
       ],
       "#app-manifest": [
-        "./manifest/meta/cb85972f-dc93-488f-a580-6ab276b16acf"
+        "./manifest/meta/dev"
       ],
       "#build": [
         "."

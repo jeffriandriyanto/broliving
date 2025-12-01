@@ -60,26 +60,31 @@ export default defineNuxtConfig({
           type: "application/ld+json",
           innerHTML: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Brand",
+            "@type": "Organization",
             name: "BROLIVING",
-            url: "https://broliving.id",
+            url: "https://broliving.id/",
             logo: "https://broliving.id/logo/logo-black.png",
-            slogan: "Crafted for Comfort. Designed for Life.",
             description:
               "BROLIVING provides premium furniture for homes, hotels, restaurants, cafés, and resorts. Blending modern design, precise craftsmanship, and long-lasting comfort for the best hospitality experience.",
+            slogan: "Crafted for Comfort. Designed for Life.",
+            keywords:
+              "premium furniture, hospitality furniture, hotel furniture, restaurant furniture, cafe furniture, resort furniture, custom furniture",
+            brand: {
+              "@type": "Brand",
+              name: "BROLIVING",
+              logo: "https://broliving.id/logo/logo-black.png",
+            },
             sameAs: [
               "https://www.instagram.com/broliving.id",
-              "https://wa.me/6285XXXXXXXX",
-            ],
-            brandValues: [
-              "Premium Materials",
-              "Quality Craftsmanship",
-              "Purposeful Design",
+              "https://wa.me/6281337286371",
             ],
             potentialAction: {
               "@type": "Action",
               name: "Order via WhatsApp",
-              target: "https://wa.me/6285XXXXXXXX",
+              target: {
+                "@type": "EntryPoint",
+                urlTemplate: "https://wa.me/6281337286371",
+              },
             },
           }),
           tagPosition: "bodyClose",

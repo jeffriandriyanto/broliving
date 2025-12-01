@@ -18,12 +18,28 @@
         :autoplay="{ delay: 4000, disableOnInteraction: false }"
         class="md:h-[60vh]"
       >
-        <swiper-slide v-for="(img, idx) in 4" :key="idx">
+        <swiper-slide>
           <NuxtImg
-            :src="`/pages/Slide_${idx + 1}.jpg`"
-            :alt="`Slide image ${idx + 1}`"
+            src="/pages/Slide_1.jpg"
+            alt="Slide image 1"
+            class="w-full h-full object-cover"
+            fetchpriority="high"
+            preload
+            loading="eager"
+            quality="70"
+            format="webp"
+          />
+        </swiper-slide>
+
+        <swiper-slide v-for="num in [2, 3, 4]" :key="num">
+          <NuxtImg
+            :src="`/pages/Slide_${num}.jpg`"
+            :alt="`Slide image ${num}`"
             class="w-full h-full object-cover"
             loading="lazy"
+            fetchpriority="auto"
+            quality="70"
+            format="webp"
           />
         </swiper-slide>
       </swiper-container>

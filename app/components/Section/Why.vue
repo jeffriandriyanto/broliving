@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="relative py-16 bg-white overflow-hidden">
+  <section id="about" class="relative py-24 bg-white overflow-hidden">
     <!-- <div class="absolute top-0 left-0 w-48 opacity-20 pointer-events-none">
       <img src="/decor/ornament-1.svg" alt="" class="w-full h-auto" />
     </div> -->
